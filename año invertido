@@ -1,0 +1,10 @@
+Algoritmo año_literal_invertido
+	definir ano, ano1, mes , dia como cadena
+	Escribir "escribir la fecha en formato 00/00/0000"
+	leer cade
+	dia= Subcadena(cade,1,2)
+	mes= Subcadena(cade,4,5)
+	ano= Subcadena(cade,7,8)
+	ano1= Subcadena(cade,9,10)
+	Escribir ano, ano1, "/",mes, "/", dia
+FinAlgoritmo
